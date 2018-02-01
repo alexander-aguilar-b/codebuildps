@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha test/test.js"
+    "test": "mocha test/test.js",
+    "build": "ng build --prod"
   },
   "dependencies": {
     "body-parser": "~1.12.0",
